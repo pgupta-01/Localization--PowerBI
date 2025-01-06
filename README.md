@@ -125,10 +125,14 @@ By using the embedded URL, by adding “&language=languageCode&formatlocale= lan
 **End user’s experience:**
 Customer can access the Power BI Report Template which we share to them. It should be mandatory that they have PBI Premium service workspace.
 Translation behavior will work for PBI Embedded Solution as well.
+
 **Tips and Tricks:**
+
 Below are few design techniques for localization before moving forward with design techniques that do support localization.
 1.	In Table, column name should not be use “underscore/_”.
+
 **For Example-** Database column name is msmix_final_intent , column name should be “Final Intent.”
+
 2.	Column should be similar which we need to display on UI.
 **For Example**- Database column name Value, column name should be “Count.”
 •	Don’t use in-built Grand Total option for percent Calculation.
