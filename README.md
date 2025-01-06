@@ -1,4 +1,4 @@
-# Localization--PowerBI
+![image](https://github.com/user-attachments/assets/2556e3e3-cded-4bce-aa59-310459bd4ba2)# Localization--PowerBI
 
 Power BI report localization using Translations Builder external Tool.
 
@@ -29,26 +29,57 @@ After adding Language, now challenge is to add the translation. So we can use ma
 To obtain this key and its location by reading Obtaining a Key for the Azure Translator Service.
   
 Once a user has configured an Azure Translator Service key, Translations Builder will begin to display additional command buttons which make it possible to generate translations for a single language at a time or for all languages at once. There are also commands to generate machine translations only for the translations that are currently empty.
+
+![image](https://github.com/user-attachments/assets/3ff494e5-e703-471d-9c7f-df5e53a2e1a4)
+
   
 You can create the Localized Labels table to a PBIX project by executing the Create Localized Labels Table command from the Generate Translated Tables menu.
+
+
+![image](https://github.com/user-attachments/assets/1decda30-8726-4b0c-be55-4fe2dd40150f)
+
+
   You can alternatively switch the Add Localized Labels dialog into Advanced Mode which makes it possible to delete all existing report labels at once and to enter a large batch of report labels in a single operation.
+
+  ![image](https://github.com/user-attachments/assets/57b40462-e4ba-4b3c-9920-8ef3656331dd)
+
   
 You can create this table by executing the Generate Translated Localized Labels Table command.
+
+![image](https://github.com/user-attachments/assets/dffc101d-0723-418c-8354-fdc6a5ed090f)
+
   
 The Translated Localized Labels table appears to a report author in the Fields pane when the report is in Report View in Power BI Desktop.
+
+![image](https://github.com/user-attachments/assets/c37eeccd-88f8-4f64-b067-9d649d4e931c)
+
   
 Any edits you make will be lost as all the measures in this table are deleted and recreated each time you execute Generate Translated Localized Labels Table.
 You can use these labels in the report and save it. After Publishing the report on the Power BI Service, the report will be translated as per user locale.
-Browser Locale:
+
+**Browser Locale:**
+
 If we updated the edge browser/chrome browser locale language setting For example: Language=”Japanese”, it would automatically fetch the locale and show the translation instead of passing the language parameter in the URL query string.
 Document for reference -https://learn.microsoft.com/en-us/power-bi/fundamentals/supported-languages-countries-regions 
 Resolution of limitation:
 Page Navigation using bookmark
 To resolve the limitation of Page/tabs Localization, I created a Page Navigation button feature in the POC report.
-Enabling Workflows for Human Translation using Export and Import
+
+**Enabling Workflows for Human Translation using Export and Import**
+
 The Translations Builder introduces the concept of a translation sheet. A translation sheet is a CSV file that you generate with an export operation to send out to a translator. The human acting as a translator performs the work to update the translation sheet and then returns it back to you. You can then execute an import command to integrate the changes made by a translator back into the current PBIX project’s dataset.
+
+![image](https://github.com/user-attachments/assets/a0e9d35b-88c3-48d6-8bd8-e3a398a1034c)
+
+
+
   
 Once we received an updated translation sheet back from a translator you can copy it to the Inbox folder. Translations Builder provides an Import Translations command to integrate those updated translations back into the dataset for the current project. Once you’ve received an updated translation sheet back from a translator you can copy it to the Inbox folder. Translations Builder provides an Import Translations command to integrate those updated translations back into the dataset for the current project.
+
+
+![image](https://github.com/user-attachments/assets/b524fd27-fc75-42ec-813a-75312307cf9b)
+
+
   
 **Difference and similarities between below approaches:**
 
@@ -74,6 +105,8 @@ By changing the browser language.
 By using the embedded URL, by adding “&language=languageCode&formatlocale= languageCode” at the end. languageCode is the language we want to display, for example en-US, ja-JP, de-DE etc.
 
 **Flow Diagram - Steps Overview:**
+
+
 ![image](https://github.com/user-attachments/assets/2a3fffb7-5d1f-4e4f-a830-05c63cc8b049)
 
   
