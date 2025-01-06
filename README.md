@@ -1,6 +1,6 @@
-![image](https://github.com/user-attachments/assets/2556e3e3-cded-4bce-aa59-310459bd4ba2)# Localization--PowerBI
 
-Power BI report localization using Translations Builder external Tool.
+
+**Power BI report localization using Translations Builder external Tool.**
 
 
 **Verify Setup for localization before publishing the report on the power BI Service.**
@@ -20,13 +20,25 @@ Please find below detail feature of external tools:
 First we need to installed the Translations Builder .msi file.
 TranslationsBuilderSetup.msi version 2.0 support more multiple language.
 After installation, open the Power BI Desktop the External Tools menu is shown as below
+
+![image](https://github.com/user-attachments/assets/f843de51-14a1-4add-a651-20c27375efc3)
+
   
 Translations Builder is a tool designed for content creators using Power BI Desktop. Content creators can use this tools to add multi-language support to PBIX project files. The following screenshot shows what Translations Builder looks like when working with a simple PBIX project that supports a small number of secondary languages.
+
+![image](https://github.com/user-attachments/assets/1d4335b8-454f-4a5c-97e6-203ec1a1604f)
+
   
 Translations Builder provides an Add Language command to add secondary languages to the project’s data model.
+
+![image](https://github.com/user-attachments/assets/65705aee-29a4-4e37-96e9-1a2dc3807566)
+
   
 After adding Language, now challenge is to add the translation. So we can use machine Translations using Azure Translator Service.
 To obtain this key and its location by reading Obtaining a Key for the Azure Translator Service.
+
+![image](https://github.com/user-attachments/assets/b5a7b006-a114-4e75-8a54-a24d45a971c6)
+
   
 Once a user has configured an Azure Translator Service key, Translations Builder will begin to display additional command buttons which make it possible to generate translations for a single language at a time or for all languages at once. There are also commands to generate machine translations only for the translations that are currently empty.
 
