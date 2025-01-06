@@ -1,6 +1,8 @@
+**Power BI Localization is now as simple as Localizing Web Resource Files. !!!**
 
 
-**Power BI report localization using Translations Builder external Tool.**
+We use an external tool called Translations Builder to localize Power BI Chart titles, legends, chart series, etc.
+
 
 
 **Verify Setup for localization before publishing the report on the power BI Service.**
@@ -15,8 +17,10 @@ Use single page/tab in a Report, other page should be hidden.
 Do not add too much literal texts in the report i.e., textboxes, shapes, buttons.
 Please find below detail feature of external tools:
 
+After installing you should see the Translations Builder tab in the External Tools menu.
 
-**Localization Using Translations Builder external tool.**
+**Overview**
+
 First we need to installed the Translations Builder .msi file.
 TranslationsBuilderSetup.msi version 2.0 support more multiple language.
 After installation, open the Power BI Desktop the External Tools menu is shown as below
