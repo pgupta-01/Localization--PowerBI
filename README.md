@@ -39,12 +39,12 @@ Translations Builder provides an Add Language command to add secondary languages
 
   
 After adding Language, now challenge is to add the translation. So we can use machine Translations using Azure Translator Service.
-To obtain this key and its location by reading Obtaining a Key for the Azure Translator Service.
+To obtain this key and its location by reading Obtaining a Key for the **Azure Translator Service**.
 
 ![image](https://github.com/user-attachments/assets/b5a7b006-a114-4e75-8a54-a24d45a971c6)
 
   
-Once a user has configured an Azure Translator Service key, Translations Builder will begin to display additional command buttons which make it possible to generate translations for a single language at a time or for all languages at once. There are also commands to generate machine translations only for the translations that are currently empty.
+Once a user has configured an **Azure Translator Service** key, Translations Builder will begin to display additional command buttons which make it possible to generate translations for a single language at a time or for all languages at once. There are also commands to generate machine translations only for the translations that are currently empty.
 
 ![image](https://github.com/user-attachments/assets/3ff494e5-e703-471d-9c7f-df5e53a2e1a4)
 
@@ -77,7 +77,10 @@ You can use these labels in the report and save it. After Publishing the report 
 
 If we updated the edge browser/chrome browser locale language setting For example: Language=”Japanese”, it would automatically fetch the locale and show the translation instead of passing the language parameter in the URL query string.
 Document for reference -https://learn.microsoft.com/en-us/power-bi/fundamentals/supported-languages-countries-regions 
-Resolution of limitation:
+
+
+**Resolution of limitation:**
+
 Page Navigation using bookmark
 To resolve the limitation of Page/tabs Localization, I created a Page Navigation button feature in the POC report.
 
